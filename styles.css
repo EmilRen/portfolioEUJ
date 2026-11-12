@@ -175,14 +175,6 @@ section:first-child p:last-child {
 	transform: translateY(-6px);
 }
 
-.projects-section li::before {
-	color: var(--accent);
-	content: "Coming soon";
-	display: block;
-	font-family: "Space Mono", monospace;
-	margin-bottom: 20px;
-}
-
 .about-section p {
 	background: var(--surface);
 	border-left: 3px solid var(--accent);
