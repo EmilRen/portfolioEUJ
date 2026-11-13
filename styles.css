@@ -175,6 +175,36 @@ section:first-child p:last-child {
 	transform: translateY(-6px);
 }
 
+.badge-card {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 14px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	max-width: 360px;
+	padding: 24px;
+}
+
+.badge-card h3 {
+	font-size: 1.1rem;
+	margin: 0;
+}
+
+.badge-card img {
+	align-self: flex-start;
+	max-height: 240px;
+	max-width: 100%;
+	object-fit: contain;
+}
+
+.badge-card a {
+	align-self: flex-start;
+	border-bottom: 1px solid var(--border);
+	display: inline-block;
+	padding-bottom: 4px;
+}
+
 .about-section p {
 	background: var(--surface);
 	border-left: 3px solid var(--accent);
